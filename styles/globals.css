@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 html,
 
 :root {
@@ -9,11 +12,12 @@ html,
 }
 
 body {
-  font-size: 15px;
-  padding  : 0;
-  margin   : 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x       : hidden;
+  font-size        : 15px;
+  padding          : 0;
+  margin           : 0;
+  font-family      : 'Josefin Sans', sans-serif;
+  /* font-family   : 'Alata', sans-serif; */
 }
 
 a {

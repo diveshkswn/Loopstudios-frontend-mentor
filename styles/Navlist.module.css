@@ -1,0 +1,41 @@
+.NavlistMainContainer {
+    width          : 100%;
+    height         : 2rem;
+    display        : flex;
+    justify-content: space-around;
+    font-size      : .9rem;
+    padding-top    : 10px;
+}
+
+.NavlistContent {
+    margin  : 0 5px;
+    position: relative;
+
+}
+
+.NavlistMainContainer .NavlistContent>span::after {
+    content         : "";
+    height          : 1px;
+    background-color: white;
+    position        : absolute;
+    right           : 0;
+    left            : 0;
+    top             : 1rem;
+    opacity         : 0;
+    transform-origin: left center;
+    transform       : scaleX(0.5);
+    transition      : all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.NavlistContent:hover>span::after {
+    opacity  : 1;
+    transform: scaleX(1);
+}
+
+
+@media(max-width : 900px) {
+    .NavlistMainContainer {
+
+        font-size: .76rem
+    }
+}

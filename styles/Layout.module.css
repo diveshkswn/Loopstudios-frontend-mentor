@@ -1,0 +1,19 @@
+.MainContainer {
+    min-height    : 101vh;
+    width         : 100vw;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.Content {
+    width           : 85%;
+    flex            : 1;
+    background-color: aqua;
+}
+
+.Footer {
+    width           : 85%;
+    background-color: aqua;
+    height          : 100px;
+}

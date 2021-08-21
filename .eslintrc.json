@@ -19,5 +19,9 @@
     "plugins": [
         "react"
     ],
-    "rules": {}
+    "rules": {
+        "linebreak-style": "off",
+        "no-unused-vars": "warn",
+        "react/prop-types": "off"
+    }
 }
