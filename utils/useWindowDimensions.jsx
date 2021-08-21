@@ -12,6 +12,7 @@ export default function useWindowDimensions() {
         height,
       };
     }
+
     setWindowDimensions(getWindowDimensions());
 
     function handleResize() {
