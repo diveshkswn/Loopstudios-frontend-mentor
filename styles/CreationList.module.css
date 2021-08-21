@@ -1,0 +1,111 @@
+.CreationListMainContainer {
+    width         : 85vw;
+    min-height    : 100vh;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    padding       : 20px 0;
+}
+
+
+.CreationListHeader {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.CreationListHeading {
+    font-variant-caps: all-petite-caps;
+    font-size        : 2.8rem;
+    letter-spacing   : 3px;
+    font-family      : 'Alata', sans-serif;
+
+}
+
+.CreationListButton {
+    width            : 120px;
+    height           : 40px;
+    border           : 2px solid black;
+    display          : grid;
+    place-items      : center;
+    font-weight      : bold;
+    font-family      : 'Alata', sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-size        : 1.2rem;
+    letter-spacing   : 3px;
+    cursor           : pointer;
+}
+
+.CreationListButton:hover,
+.CreationListButton2:hover {
+    background-color: black;
+    color           : whitesmoke;
+    transition      : all 200ms ease-in;
+}
+
+.CreationListButton2 {
+    width            : 120px;
+    height           : 40px;
+    border           : 2px solid black;
+    display          : grid;
+    place-items      : center;
+    font-weight      : bold;
+    font-family      : 'Alata', sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-size        : 1.2rem;
+    letter-spacing   : 3px;
+    cursor           : pointer;
+    display          : none;
+}
+
+.CreationListContent {
+    width                : 80%;
+    height               : 100%;
+    padding              : 10px;
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 20px;
+}
+
+
+@media(max-width : 950px) {
+    .CreationListContent {
+        width                : 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width : 700px) {
+
+    .CreationListButton {
+        display: none;
+    }
+
+    .CreationListButton2 {
+        display    : block;
+        display    : grid;
+        place-items: center;
+    }
+
+    .CreationListHeader {
+        justify-content: center;
+    }
+
+    .CreationListContent {
+        width                : 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width : 450px) {
+
+
+    .CreationListContent {
+        width                : 100%;
+        grid-template-columns: repeat(1, 1fr);
+        place-items          : center;
+        padding              : 10px;
+        gap                  : 20px;
+    }
+}

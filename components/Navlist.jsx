@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import styles from '../styles/Navlist.module.css';
 
-export default function Navlist({ type }) {
+export default function Navlist({ type, size }) {
   return (
-    <div className={`${styles.NavlistMainContainer} ${type === 'Footer' ? styles.flexChange : ''}`}>
+    <div style={size && { fontSize: size }} className={`${styles.NavlistMainContainer} ${type === 'Footer' ? styles.flexChange : ''}`}>
       <a href="/" className={styles.NavlistContent}><span>About</span></a>
       <div className={styles.NavlistContent}><span>Careers</span></div>
       <div className={styles.NavlistContent}><span>Events</span></div>

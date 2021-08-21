@@ -1,0 +1,49 @@
+.CreationCardContainer {
+    max-width      : 200px;
+    min-width      : 170px;
+    height         : 300px;
+    position       : relative;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    align-items    : center;
+    padding        : 0 20px;
+    padding-bottom : 50px;
+    color          : white;
+    cursor         : pointer;
+    z-index        : 1;
+    transition     : all 300ms ease;
+    overflow       : hidden;
+    border-radius  : 5px;
+}
+
+.CreationCardContainer img {
+    filter : brightness(60%);
+    z-index: -1;
+
+    transition: filter 300ms ease;
+}
+
+.CreationCardContainer:hover img {
+    opacity   : 50%;
+    transition: all 300ms ease;
+}
+
+.CreationCardContainer:hover {
+    color: black;
+}
+
+.CreationCardHeader {
+    font-size: 2rem;
+}
+
+
+
+
+@media(max-width : 450px) {
+    .CreationCardContainer {
+        height: 250px;
+        width : 95vw;
+
+    }
+}
