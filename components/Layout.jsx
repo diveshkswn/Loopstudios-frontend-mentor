@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Layout.module.css';
+import Footer from './Footer';
 import Header from './Header';
 
 export default function Layout({ children }) {
@@ -15,7 +16,7 @@ export default function Layout({ children }) {
       </div>
 
       <div className={styles.Footer}>
-        Footer
+        <Footer />
       </div>
     </div>
   );

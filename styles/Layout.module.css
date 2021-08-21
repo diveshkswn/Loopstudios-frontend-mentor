@@ -13,7 +13,16 @@
 }
 
 .Footer {
-    width           : 85%;
+    width           : 100%;
     background-color: aqua;
     height          : 100px;
+}
+
+
+
+
+@media(max-width : 900px) {
+    .Footer {
+        min-height: 60vh;
+    }
 }

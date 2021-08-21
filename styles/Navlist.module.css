@@ -4,12 +4,16 @@
     display        : flex;
     justify-content: space-around;
     font-size      : .9rem;
+    font-weight    : bold;
     padding-top    : 10px;
+
 }
+
 
 .NavlistContent {
     margin  : 0 5px;
     position: relative;
+    cursor  : pointer;
 
 }
 
@@ -36,6 +40,14 @@
 @media(max-width : 900px) {
     .NavlistMainContainer {
 
-        font-size: .76rem
+        font-size: .76rem;
+
     }
+
+    .flexChange {
+        min-height     : 300px;
+        flex-direction : column;
+        justify-content: space-around;
+    }
+
 }

@@ -1,6 +1,6 @@
 .HeaderMainContainer {
     width          : 100%;
-    height         : 45vh;
+    height         : 50vh;
     position       : relative;
     display        : flex;
     justify-content: center;
@@ -14,12 +14,13 @@
 
 
 .HeaderContent {
-    width          : 85%;
-    color          : aliceblue;
-    padding        : 15px 0;
-    display        : flex;
-    flex-direction : column;
-    justify-content: space-between;
+    width             : 85%;
+    color             : aliceblue;
+    padding           : 15px 0;
+    display           : flex;
+    flex-direction    : column;
+    justify-content   : space-between;
+    /* z-index        : 100; */
 }
 
 .HeaderBar {

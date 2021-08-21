@@ -1,0 +1,86 @@
+.FooterMainContainer {
+    padding         : 10px;
+    width           : 100%;
+    height          : 100%;
+    background-color: var(--primary-black);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.FooterContent {
+    color          : white;
+    width          : 85%;
+    height         : 65%;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.FooterContentLeft {
+    width: 30%;
+}
+
+.FooterTitle {
+    font-family: 'Alata', sans-serif;
+    font-size  : 1.3rem;
+}
+
+.FooterConterRight {
+    width          : 30%;
+    display        : flex;
+    flex-direction : column;
+    height         : 100%;
+    justify-content: space-between;
+}
+
+.FooterRights {
+    font-weight: bold;
+    color      : var(--primary-dark-grey);
+}
+
+.FooterIconsContainer {
+    display        : flex;
+    width          : 70%;
+    height         : 15px;
+    justify-content: flex-end;
+}
+
+.IconContainer {
+    position: relative;
+    height  : 100%;
+    width   : 100%;
+    cursor  : pointer;
+}
+
+
+@media(max-width : 900px) {
+    .FooterContent {
+        width          : 100%;
+        height         : 100%;
+        flex-direction : column;
+        align-items    : center;
+        justify-content: space-evenly;
+
+    }
+
+    .FooterContentLeft {
+        text-align: center;
+    }
+
+
+
+    .FooterIconsContainer {
+        width: 100%;
+    }
+
+    .FooterConterRight {
+        width     : 100%;
+        text-align: center;
+
+    }
+
+    .FooterRights {
+        width: 100%;
+    }
+}
