@@ -1,13 +1,23 @@
 html,
+
+:root {
+  --primary-white         : hsl(0, 0%, 100%);
+  --primary-black         : hsl(0, 0%, 0%);
+  --primary-dark-grey     : hsl(0, 0%, 55%);
+  --primary-very-dark-grey: hsl(0, 0%, 41%);
+
+}
+
 body {
-  padding: 0;
-  margin: 0;
+  font-size: 15px;
+  padding  : 0;
+  margin   : 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
+  color          : inherit;
   text-decoration: none;
 }
 
