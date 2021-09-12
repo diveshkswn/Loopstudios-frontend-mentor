@@ -14,7 +14,8 @@ Thanks for checking out this front-end coding challenge.
 
 - API URL: [Add solution URL here](https://loopstudios-frontend-mentor.vercel.app/api/ourcreations)
 - Live Site URL: [Add live site URL here](https://loopstudios-frontend-mentor.vercel.app)
-
+- PWA Manifest generator : (https://www.simicart.com/manifest-generator.html/)
+- Enabling PWA in Next js : (https://itnext.io/pwa-with-next-js-create-next-app-in-2020-%EF%B8%8F-9ee0e1a6313d)
 
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.

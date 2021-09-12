@@ -20,7 +20,7 @@ export default function Header() {
           <div className={styles.HeaderTitle}>
             loopstudios
           </div>
-          <div className={width > 700 && styles.HeaderNavList}>
+          <div className={width > 700 ? styles.HeaderNavList : ''}>
             {width && width > 700 ? <Navlist /> : <Hamburger setMobileNav={setMobileNav} />}
           </div>
         </div>

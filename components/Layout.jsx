@@ -8,6 +8,7 @@ export default function Layout({ children }) {
     <div className={styles.MainContainer}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <Header />
       <div className={styles.Content}>
